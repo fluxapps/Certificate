@@ -19,11 +19,11 @@ Start at your ILIAS root directory
 ```bash
 mkdir -p Customizing/global/plugins/Services/UIComponent/UserInterfaceHook
 cd Customizing/global/plugins/Services/UIComponent/UserInterfaceHook
-git clone https://github.com/fluxapps/Certificate.git Certificate
+git clone https://github.com/studer-raimann/Certificate.git Certificate
 ```
 Update and activate the plugin in the ILIAS Plugin Administration
 
-Please also install and enable [CertificateCron](https://github.com/fluxapps/CertificateCron).
+Please also install and enable [CertificateCron](https://github.com/studer-raimann/CertificateCron).
 
 <del>
 This plugin has some dependencies on other plugins and services. 
@@ -34,18 +34,22 @@ Please follow the installation guide of the [documentation](/doc/Documentation.p
 
 An installation and user guide is available in [the doc/Documentation.pdf](/doc/Documentation.pdf?raw=true) file.
 
-# Contributing :purple_heart:
-Please ...
-1. ... register an account at https://git.fluxlabs.ch
-2. ... write us an email: support@fluxlabs.ch
-3. ... we give you access to the projects you like to contribute :fire:
+### Requirements
+* ILIAS 5.4 or ILIAS 6
+* PHP >=7.0
 
+## Rebuild & Maintenance
 
-# Adjustment suggestions / bug reporting :feet:
-Please ...
-1. ... register an account at https://git.fluxlabs.ch
-2. ... ask us for a sla: support@fluxlabs.ch :kissing_heart:
-3. ... we will give you the access with the possibility to read and create issues or to discuss feature requests with us.
+fluxlabs ag, support@fluxlabs.ch
 
+This project needs to be rebuilt before it can be maintained.
 
-[overview]: /doc/Images/certificate_plugin_preview.jpg?raw=true "Preview of certificate plugin"
+Are you interested in a rebuild and would you like to participate?
+Take advantage of the crowdfunding opportunity under [discussions](https://github.com/fluxapps/Certificate/discussions/17).
+
+## About fluxlabs plugins
+
+Please also have a look at our other key projects and their [MAINTENANCE](https://github.com/fluxapps/docs/blob/8ce4309b0ac64c039d29204c2d5b06723084c64b/assets/MAINTENANCE.png).
+
+The plugins that require a rebuild and the costs are listed here: [REBUILDS](https://github.com/fluxapps/docs/blob/8ce4309b0ac64c039d29204c2d5b06723084c64b/assets/REBUILDS.png)
+
